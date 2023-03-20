@@ -20,9 +20,10 @@ export default function Header({ className }) {
           />
 
           <Flex as="nav" sx={styles.nav}>
-            {menuItems.map(({ path, label }, i) => (
+            {/* {menuItems.map(({ path, label }, i) => (
               <Link href={path} key={i}>
                 <ScrollLink
+                  to=''
                   activeClass="active"
                   spy={true}
                   smooth={true}
@@ -32,10 +33,10 @@ export default function Header({ className }) {
                   {label}
                 </ScrollLink>
               </Link>
-            ))}
+            ))} */}
           </Flex>
 
-          <Link href="/event">
+          {/* <Link href="/">
             <Button
               className="donate__btn"
               variant="secondary"
@@ -43,9 +44,9 @@ export default function Header({ className }) {
             >
               Bootcamp
             </Button>
-          </Link>
+          </Link> */}
 
-          <MobileDrawer />
+          {/* <MobileDrawer /> */}
         </Container>
       </header>
     </DrawerProvider>

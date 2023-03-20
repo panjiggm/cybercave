@@ -47,7 +47,7 @@ const MobileDrawer = () => {
               <Link href={path} key={i}>
                 <ScrollLink
                   activeClass="active"
-                  to={path}
+                  to=""
                   spy={true}
                   smooth={true}
                   offset={-70}
@@ -65,7 +65,9 @@ const MobileDrawer = () => {
               {social.map(({ path, icon }, i) => (
                 <Box as="span" key={i} sx={styles.social.icon}>
                   <Link href={path}>
-                    <ScrollLink target="_blank">{icon}</ScrollLink>
+                    <ScrollLink target="_blank" to="">
+                      {icon}
+                    </ScrollLink>
                   </Link>
                 </Box>
               ))}

@@ -33,7 +33,7 @@ const data = [
 
 export default function KeyFeature() {
   return (
-    <section sx={{ variant: 'section.keyFeature' }} id="feature">
+    <section sx={{ variant: 'section.keyFeature' }}>
       <Container>
         <SectionHeader
           slogan="Why Choose Us"

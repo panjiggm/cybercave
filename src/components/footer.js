@@ -40,11 +40,11 @@ export default function Footer() {
           </Flex>
 
           <Flex as="ul" sx={styles.nav}>
-            {navItems?.map((item) => (
+            {/* {navItems?.map((item) => (
               <li key={item.id}>
                 <Link path={item.link}>{item.title}</Link>
               </li>
-            ))}
+            ))} */}
           </Flex>
         </Flex>
       </Container>

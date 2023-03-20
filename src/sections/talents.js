@@ -68,9 +68,7 @@ const styles = {
   },
   thumbnail: {
     mb: -2,
-    ml: [-4, '-40px', null, null, 0],
     order: [2, null, null, 0],
-    pr: [6, null, 7, 0],
   },
   contentBox: {
     width: ['100%', 420, 480, 380, 500, 570],
